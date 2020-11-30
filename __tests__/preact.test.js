@@ -4,7 +4,7 @@ describe('preact config', () => {
   it('extends files', () => {
     const expected = [
       'wyze',
-      'wyze/rules/preact',
+      'lwintch-wyze/rules/preact',
     ]
 
     expect(preact.extends).toEqual(expected)

@@ -4,7 +4,7 @@ describe('flow config', () => {
   it('extends files', () => {
     const expected = [
       'plugin:flowtype/recommended',
-      'wyze/rules/flow',
+      'lwintch-wyze/rules/flow',
     ]
 
     expect(flow.extends).toEqual(expected)

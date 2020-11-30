@@ -47,24 +47,24 @@
 
   // Preact
   "eslintConfig": {
-    "extends": "wyze/preact"
+    "extends": "lwintch-wyze/preact"
   }
 
   // Non-React
   "eslintConfig": {
-    "extends": "wyze/base"
+    "extends": "lwintch-wyze/base"
   }
 
   // Flow
   "eslintConfig": {
-    "extends": "wyze/flow"
+    "extends": "lwintch-wyze/flow"
   }
 
   // Multiple (React + Flow)
   "eslintConfig": {
     "extends": [
       "wyze",
-      "wyze/flow"
+      "lwintch-wyze/flow"
     ]
   }
 }

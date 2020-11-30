@@ -5,11 +5,11 @@ describe('base config', () => {
     const expected = [
       'airbnb/base',
       'plugin:wyze/recommended',
-      'wyze/rules/best-practices',
-      'wyze/rules/es6',
-      'wyze/rules/import',
-      'wyze/rules/legacy',
-      'wyze/rules/style',
+      'lwintch-wyze/rules/best-practices',
+      'lwintch-wyze/rules/es6',
+      'lwintch-wyze/rules/import',
+      'lwintch-wyze/rules/legacy',
+      'lwintch-wyze/rules/style',
     ]
 
     expect(base.extends).toEqual(expected)

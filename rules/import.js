@@ -5,7 +5,7 @@ module.exports = {
     'import/default': 'error',
     // disallow non-import statements appearing before import statements
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
-    'import/first': [ 'error', '' ],
+    'import/first': ['error', 'absolute-first'],
     // disallow non-import statements appearing before import statements
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md
     // deprecated: use `import/first`
