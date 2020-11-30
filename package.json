@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "boot": "yarn",
+    "boot": "yarn --registry=https://registry.npmjs.org",
     "bump": "npm version --preid=alpha -m \"chore: publish %s\"",
     "lint": "eslint rules *.js",
     "pretest": "yarn lint",
@@ -69,10 +69,11 @@
     "eslint-plugin-flowtype": "3.4.2",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-react": "7.21.5",
-    "eslint-plugin-lwintch-wyze": "0.0.1"
+    "eslint-plugin-lwintch-wyze": "0.0.1",
+    "eslint-plugin-react": "7.21.5"
   },
   "devDependencies": {
+    "@babel/core": "7.12.9",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.6.3",
     "babel-plugin-transform-inline-imports-commonjs": "1.2.0",
@@ -83,8 +84,9 @@
     "eslint-plugin-flowtype": "3.4.2",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-lwintch-wyze": "1.0.0",
     "eslint-plugin-react": "7.21.5",
-    "eslint-plugin-lwintch-wyze": "0.0.1",
+    "eslint-plugin-react-hooks": "4.2.0",
     "execa": "^0.6.3",
     "jest": "26.6.3",
     "read-pkg": "^2.0.0"
