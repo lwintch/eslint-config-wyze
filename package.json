@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lwintch-wyze",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "eslint config for sorting keys from wyze (github)",
   "license": "MIT",
   "repository": "git@github.com:lwintch/eslint-config-wyze.git",
