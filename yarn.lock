@@ -1701,10 +1701,10 @@ eslint-plugin-jsx-a11y@6.4.1:
     jsx-ast-utils "^3.1.0"
     language-tags "^1.0.5"
 
-eslint-plugin-lwintch-wyze@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-lwintch-wyze/-/eslint-plugin-lwintch-wyze-1.0.0.tgz#3e67b4a40d4b53f05f2738d295a562aa73b702b7"
-  integrity sha512-p8KCuAeAkFvAnq/8cLiLhzIhRAXEO63t30PRfo4NYa/ejJJ18atTmbFRRW+WUmAZ3SsIl/WW7UbUQvMROmkOHg==
+eslint-plugin-lwintch-wyze@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/eslint-plugin-lwintch-wyze/-/eslint-plugin-lwintch-wyze-1.1.0.tgz#7d39263ac040fe23061af0e9247a5f60def65d93"
+  integrity sha512-kjnqXBNXcWuhTUl3c5kCIHhL7wE7SSoHinEwpFwIi0/TynL9IwLgfyYDY5PwvjmpTT8+4n9OXW6e0Qote51Q4w==
 
 eslint-plugin-react-hooks@4.2.0:
   version "4.2.0"
